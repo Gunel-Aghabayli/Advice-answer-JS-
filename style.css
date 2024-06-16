@@ -1,0 +1,44 @@
+body{
+    background-color: #2a2626;
+}
+
+.clickBtn{
+   padding: 10px 30px;
+   background-color: #2a2626;
+   color: azure;
+   font-size: 20px;
+   border-radius: 5px;
+}
+p{
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #264653;
+    width: 550px;
+    margin-left: 500px;
+    color: white;
+    border-radius: 9px;
+    text-align: center;
+}
+.clickBtn{
+    --green: #1BFD9C;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+  }
+  
